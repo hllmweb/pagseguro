@@ -1,0 +1,63 @@
+html,body{
+  font-family:Arial, sans-serif;
+  padding:0;
+  margin:0;
+}
+strong{
+  display:block;
+  color:#333;
+}
+p{
+  font-size:16px;
+  color:#333;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+input{
+  width:90%;
+  padding:5px;
+}
+#dados_comprador,
+#dados_entrega,
+#dados_cartao{
+  padding:20px 0;
+  border-top:1px solid #CCC;
+}
+#formComprar{
+  max-width:1200px;
+  width:100%;
+  margin:auto;
+}
+#formComprar label{
+  display:inline-block;
+  width:40%;
+  padding:5px 0;
+}
+.invisivel{
+  display:none;
+}
+.titulo{
+  float:left;
+  width:100%;
+  font-weight:bold;
+  color:#FFF;
+  background-color:#000;
+  text-align:center;
+  border-radius:10px 10px 0 0;
+}
+.cartao_credito,
+.boleto,
+.debito{
+  float:left;
+  width:30%;
+  margin:30px 1.5%;
+  border-radius:10px;
+  padding:10px;
+  border:1px solid #999;
+  font-size:18px;
+  font-weight:bold;
+}
+.bloco{
+  display:block;
+  clear:both;
+}
